@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dijkstra's Algorithm</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="btn-class">
+      <button id="reset">Reset</button>
+      <button id="reset-all">Reset All</button>
+      <button id="visualize">Visualize Dijkstra Algorithm</button>
+      <button id="random-walls">Random Walls</button>
+      <div class="speed">
+        <b>Speed : </b>
+        <input type="range" id="speed-bar" max="2" value="1" />
+      </div>
+    </div>
+
+    <table id="cells"></table>
+
+    <!-- Required Scripts  -->
+    <script src="script.js"></script>
+    <script src="dijkstra_algorithm.js"></script>
+    <script src="maze.js"></script>
+  </body>
+</html>
